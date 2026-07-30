@@ -1,7 +1,28 @@
 aid: legalpad
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/legalpad.png
 name: LegalPad
-description: LegalPad is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Legalpad (Legalpad Inc, Seattle) was a startup-focused US work-visa and immigration
+  company founded by Todd Heine and Sara Itucas, who first began processing visas together at
+  Teleborder (Y Combinator 2013) and reunited in Techstars Seattle in 2017. Legalpad paired
+  software with staff immigration attorneys to file O-1, H-1B, L-1, TN, E-1/E-2, E-3 and B-1
+  work visas plus EB-1A, EB-1B, EB-1C, EB-2 and EB-2 NIW employment-based green cards, and said
+  it had helped 500+ companies at roughly one-third the typical processing time. It raised a $2M
+  seed in 2018 and a $10M Series A in 2020 before being acquired by Deel in 2022, after which it
+  operated as "Legalpad by Deel" inside Deel Immigration. The legalpad.io web presence was
+  retired after 2024 and the business now lives on as Deel Immigration. Legalpad never published
+  a public API, developer portal, documentation, SDK or other developer surface, so there is no
+  API artifact to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/legalpad/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,26 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Deel
+x-acquired-date: '2022'
+x-successor: https://www.deel.com/immigration/
+x-former-website: https://legalpad.io/
+x-former-website-status: NXDOMAIN — no A record on legalpad.io or any subdomain as of 2026-07-19
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Legal
+- Immigration
+- Work Visas
+- Legal Services
+- Human Resources
+- Employment
+- Global Mobility
+- Professional Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +58,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://legalpad.io/
+  name: Deel Immigration (successor to Legalpad)
+  url: https://www.deel.com/immigration/
+- type: Archive
+  name: Legalpad homepage, Internet Archive (last 200 capture, 2024-11-23)
+  url: https://web.archive.org/web/20241123115209/https://legalpad.io/
+- type: DomainSecurity
+  url: security/legalpad-domain-security.yml
+- type: LLMsTxt
+  url: llms/legalpad-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
