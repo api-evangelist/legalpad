@@ -1,0 +1,62 @@
+generated: '2026-07-19'
+method: probed
+source: dig + curl against legalpad.io and its known subdomains
+note: >-
+  Legalpad was acquired by Deel in 2022 and its web presence was retired after 2024. The
+  legalpad.io domain is still registered (Gandi, renewed 2025-12-10) and still routes email
+  via Google Workspace MX, but publishes no A/AAAA records on the apex or on any subdomain
+  observed in the archived site, so there is no live HTTPS host to probe. Absence of records
+  is recorded as observed data, not as a failure.
+hosts:
+- host: legalpad.io
+  dns_a: []
+  resolves: false
+  https: false
+  evidence: NXDOMAIN/no-A on apex
+- host: www.legalpad.io
+  dns_a: []
+  resolves: false
+  https: false
+- host: beta.legalpad.io
+  dns_a: []
+  resolves: false
+  https: false
+  note: sign-in host linked from the archived homepage
+- host: get.legalpad.io
+  dns_a: []
+  resolves: false
+  https: false
+  note: events/webinars host linked from the archived homepage
+- host: api.legalpad.io
+  dns_a: []
+  resolves: false
+  https: false
+  note: probed speculatively; never documented by the provider
+- host: app.legalpad.io
+  dns_a: []
+  resolves: false
+  https: false
+  note: probed speculatively; never documented by the provider
+domains:
+- domain: legalpad.io
+  registered: true
+  registrar: Gandi SAS
+  created: '2018-01-09'
+  updated: '2025-12-10'
+  nameservers:
+  - ns-368.awsdns-46.com
+  - ns-704.awsdns-24.net
+  - ns-1289.awsdns-33.org
+  - ns-1808.awsdns-34.co.uk
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+  dmarc_policy: null
+  mx: true
+  mx_provider: Google Workspace
+successor_domain:
+  domain: deel.com
+  note: >-
+    Live posture for the successor service belongs to the Deel provider record
+    (all/deel/), not to this archived company profile.
