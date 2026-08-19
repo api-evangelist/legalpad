@@ -37,7 +37,7 @@ x-successor: https://www.deel.com/immigration/
 x-former-website: https://legalpad.io/
 x-former-website-status: NXDOMAIN — no A record on legalpad.io or any subdomain as of 2026-07-19
 x-api-surface: none
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
