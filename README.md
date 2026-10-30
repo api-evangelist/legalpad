@@ -64,19 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Legalpad (Legalpad Inc, Seattle) was a startup-focused US work-visa and immigration company that
-paired software with staff immigration attorneys — O-1, H-1B, L-1, TN, E-1/E-2, E-3 and B-1 work
-visas plus EB-1A/EB-1B/EB-1C/EB-2/EB-2 NIW green cards. Founded by Todd Heine and Sara Itucas,
-accepted into Techstars Seattle in 2017, $2M seed (2018), $10M Series A (2020).
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: acquired by Deel in 2022.** It operated as "Legalpad by Deel" inside Deel Immigration;
-the legalpad.io web presence was retired after 2024 and no longer resolves. The successor service
-is [Deel Immigration](https://www.deel.com/immigration/) — see `all/deel/` for the live API and
-developer surface.
+Legalpad (Legalpad Inc, Seattle) was a startup-focused US work-visa and immigration company founded by Todd Heine and Sara Itucas, who first began processing visas together at Teleborder (Y Combinator 2013) and reunited in Techstars Seattle in 2017. Legalpad paired software with staff immigration attorneys to file O-1, H-1B, L-1, TN, E-1/E-2, E-3 and B-1 work visas plus EB-1A, EB-1B, EB-1C, EB-2 and EB-2 NIW employment-based green cards, and said it had helped 500+ companies at roughly one-third the typical processing time. It raised a $2M seed in 2018 and a $10M Series A in 2020 before being acquired by Deel in 2022, after which it operated as "Legalpad by Deel" inside Deel Immigration. The legalpad.io web presence was retired after 2024 and the business now lives on as Deel Immigration. Legalpad never published a public API, developer portal, documentation, SDK or other developer surface, so there is no API artifact to enrich.
 
-**API surface: none.** Legalpad never published a public API, developer portal, documentation, SDK,
-CLI, MCP server or event surface, so there is nothing to enrich beyond the company profile.
+**Areas:** Company · Legal · Immigration · Work Visas · Legal Services · Human Resources · Employment · Global Mobility · Professional Services
 
-- Backed by: techstars
-- Former website: https://legalpad.io/ (no DNS as of 2026-07-19)
-- Archive: https://web.archive.org/web/20241123115209/https://legalpad.io/
+## LegalPad on APIs.io (historical record)
+
+Everything profiled for LegalPad is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/legalpad/](https://apis.io/providers/legalpad/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Legalpad Domain Security](https://apis.io/security/legalpad/legalpad-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.deel.com/immigration/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LegalPad: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/legalpad/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
